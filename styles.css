@@ -1,0 +1,13 @@
+/* reset to zero everything in default*/
+* {
+  padding: 0;
+  margin: 0;
+  /* можно теперь удалить из всех иных стилей */
+  box-sizing: border-box;
+}
+.container {
+  max-width: 750px;
+  /* width: 750px; без адаптивности */
+  margin: auto; /* адаптивная ширина */
+  padding: 30px 15px 0 15px;
+}
